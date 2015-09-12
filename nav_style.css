@@ -1,0 +1,241 @@
+/*Navigation CSS*/
+body{
+	text-align: center;
+	background-color: white;
+}
+
+#wrapper{
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+}
+
+#head_navigation{
+	width: 100%;
+	margin-top: 0.5rem;
+	border-bottom: 0.125rem solid #B4E1F0;
+	float: left;
+}
+
+#head_image{
+	width: 40%;
+	float: left;
+	margin-bottom: 0.5rem;
+}
+.head_img{
+	width: 100%;
+	height: 10rem;
+	background-image: url(../img/head_img.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/*.image{
+	width: 100%;
+	height: auto;
+}*/
+
+#head_nav{
+	width: 55%;
+	height: 5rem;
+	float: left;
+}
+#nav_container{
+	width: 100%;
+	height: 100%;
+	margin-left: 2rem;
+	margin-top: 5rem;
+}
+.buttons{
+	width: 20%;
+	height: 100%;
+	float: left;
+	font-family: 'impact';
+	font-size: 3.5rem;
+	color: black;
+	text-decoration: none;
+	
+	border-bottom: .5rem solid white;
+	transition: border-bottom .5s ease-in-out;
+	-moz-transition: border-bottom .5s ease-in-out;
+	-webkit-transition: border-bottom .5s ease-in-out;
+}
+.buttons:hover{
+	border-bottom: .5rem solid #B4E1F0;
+}
+/*#home_ui, #learn_ui, #quiz_ui{
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	transition: background-image .5s ease-in-out;
+	-moz-transition: background-image .5s ease-in-out;
+	-webkit-transition: background-image .5s ease-in-out;
+}
+#home_ui{
+	background-image: url(../img/ui_home-01.jpg);
+}
+#home_ui:hover{
+	background-image: url(../img/ui_home_hover-01.jpg);
+	transition: background-image .5s ease-in-out;
+	cursor: pointer;
+}
+
+#learn_ui{
+	background-image: url(../img/ui_learn-01.jpg);
+}
+#learn_ui:hover{
+	background-image: url(../img/ui_learn_hover-01.jpg);
+	transition: background-image .5s ease-in-out;
+	cursor: pointer;
+}
+
+#quiz_ui{
+	background-image: url(../img/ui_quiz-01.jpg);
+}
+#quiz_ui:hover{
+	background-image: url(../img/ui_quiz_hover-01.jpg);
+	transition: background-image .5s ease-in-out;
+	cursor: pointer;
+}*/
+
+#main{
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+	height: auto;
+}
+
+#help_container{
+	width: 30%;
+	float: left;
+}
+
+.help_title{
+	font-family: 'impact';
+	font-size: 5rem;
+	color: black;
+	margin: 0px;
+}
+#c1_open_arrow, #c2_open_arrow, #c3_open_arrow, #c4_open_arrow{
+	font-size: 2rem;
+	float: left;
+	transform: rotate(90deg);
+}
+
+#course_container{
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-family: 'impact';
+}
+.course{
+	width: 80%;
+	margin: auto;
+}
+
+.course_title{
+	font-size: 2rem;
+	margin: 1rem 0px;
+	transition: color 0.5s ease-in-out;
+	-moz-transition: color 0.5s ease-in-out;
+	-webkit-transition: color 0.5s ease-in-out;
+}
+.course_title:hover{
+	color: grey;
+	transition: color 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+#course1_courses, #course2_courses, #course3_courses, #course4_courses{
+	width: 80%;
+	margin: auto;
+}
+
+.topic_titles{
+	text-decoration: none;
+	color: black;
+	font-family: 'impact';
+	font-size: 1.5rem;
+	transition: color 0.5s ease-in-out;
+	-moz-transition: color 0.5s ease-in-out;
+	-webkit-transition: color 0.5s ease-in-out;
+}
+.topic_titles:hover{
+	color: grey;
+	transition: color 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+#footer{
+	width: 100%;
+	height: 3rem;
+	opacity: 0.2;
+	background-color: #B4E1F0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+	/*transition: opacity .75s ease-in-out;
+	-moz-transition: opacity .75s ease-in-out;
+	-webkit-transition: opacity .75s ease-in-out;*/
+}
+/*
+#footer:hover{
+	opacity: 1;
+	transition: opacity .75s ease-in-out;
+	cursor: pointer;
+}*/
+
+.copyright{
+	width: 95%;
+	float: left;
+	text-align: left;
+	margin-top: .5rem;
+	font-family: 'impact';
+	font-size: 1.5rem;
+}
+
+#footer_open{
+	width: 5%;
+	float: left;
+	font-family: 'impact';
+	font-size: 1.5rem;
+	margin-top: .5rem;
+	transform: rotate(180deg);
+	
+	transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	-webkit-transition: color 0.3s ease-in-out;
+}
+#footer_open:hover{
+	color: grey;
+	transition: color 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+#visable_footer{
+	width: 33%;
+	float: left;
+	height: 10rem;
+}
+
+#hidden_footer{
+	width: 66%;
+	float: left;
+	height: 10rem;
+}
+#helpful_links{
+	width: 50%;
+	float: left;
+}
+#social_network{
+	width: 50%;
+	float: left;
+}
+.footer_text{
+	color: black;
+	text-decoration: none;
+}
+
+::-webkit-scrollbar{
+	display: none;
+}
