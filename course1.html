@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+		<link rel="stylesheet" href="css/nav_style.css">
+		<link rel="stylesheet" href="css/course_style.css">
+		<title>Course 1 & 2 </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="uft-8">
+	</head>
+	<body>
+		<section id="wrapper"> <!--Wrapper for website-->
+		
+			<!--Navigation and Website image-->
+			<section id="head_navigation"> <!--Wrapper for header-->
+				<section id="head_image"> <!--Image for website-->
+					<div class="head_img">
+						<!--img src="img/head_img.jpg" class="image"/> <!--Links in image-->
+					</div>
+				</section>
+				<section id="head_nav"> <!--Navigation wrapper-->
+					<nav id="nav_container">
+						<!--<a href="#" class="buttons" id="home_ui"></a>
+						<a href="#" class="buttons" id="learn_ui"></a>
+						<a href="#" class="buttons" id="learn_ui"></a> <!--Navigation buttons
+						<a href="#" class="buttons" id="quiz_ui"></a>
+						<a href="#" class="buttons" id="quiz_ui"></a>-->
+						<a href="index.html" class="buttons">HOME</a>
+						<a href="course1.html" class="buttons">COURSE</a>
+						<a href="#" class="buttons">COURSE</a> <!--Navigation buttons-->
+						<a href="#" class="buttons">QUIZ</a>
+						<a href="#" class="buttons">EXAM</a>
+					</nav>
+				</section>
+			</section>
+			
+			<!--Main area of the webpage-->
+			<section id="main"> <!--Wrapper for the main area of the website-->
+				<section id="help_container"><!--Side help bar for website-->
+					<h1 class="help_title">HELP GUIDE</h1>
+					<section id="course_container"> 
+					
+						<section class="course"><!--Course 1-->
+							<a class="course_title" onclick="Select_course('course1_courses');"><section id="c1_open_arrow">></section>COURSE 1 - EFFECTS</a><!--Course Title-->
+							<section id="course1_courses" style="display: none;">
+								<li>
+									<a href="#" class="topic_titles">
+										BLACK AND WHITE
+									</a>
+								</li>
+								<li>
+									<a href="#" class="topic_titles">			<!--Topics-->
+										SEPIA
+									</a>
+								</li>
+								<li>
+									<a href="#" class="topic_titles">
+										VIGNETTE
+									</a>
+								</li>
+							</section>
+						</section>
+						
+						<section class="course"><!--Course 2-->
+							<a class="course_title" onclick="Select_course('course2_courses');"><section id="c2_open_arrow">></section>COURSE 2 - SELECTING</a><!--Course Title-->
+							<section id="course2_courses"style="display: none;">
+								<li>
+									<a href="#" class="topic_titles">
+										MAGIC WAND TOOL
+									</a>
+								</li>
+								<li>
+									<a href="#" class="topic_titles">			<!--Topics-->
+										LASSO TOOL
+									</a>
+								</li>
+								<li>
+									<a href="#" class="topic_titles">
+										PEN TOOL
+									</a>
+								</li>
+							</section>
+						</section>
+						
+						<section class="course"><!--Course 3-->
+							<a class="course_title" onclick="Select_course('course3_courses');"><section id="c3_open_arrow">></section>COURSE 3 - FILTERS</a><!--Course Title-->
+							<section id="course3_courses"style="display: none;">
+								<li>
+									<a href="#" class="topic_titles">
+										BLUR FILTER
+									</a>
+								</li>
+								<li>
+									<a href="#" class="topic_titles">			<!--Topics-->
+										SHARPEN FILTER
+									</a>
+								</li>
+								<li>
+									<a href="#" class="topic_titles">
+										FILTER GALLERY
+									</a>
+								</li>
+							</section>
+						</section>
+						
+						<section class="course"><!--Course 4-->
+							<a class="course_title" onclick="Select_course('course4_courses');"><section id="c4_open_arrow">></section>COURSE 4 - TIPS & TRICKS</a><!--Course Title-->
+							<section id="course4_courses"style="display: none;">
+								<li>
+									<a href="#" class="topic_titles">
+										RESIZING
+									</a>
+								</li>
+								<li>
+									<a href="#" class="topic_titles">			<!--Topics-->
+										BOOST COLOUR
+									</a>
+								</li>
+								<li>
+									<a href="#" class="topic_titles">
+										BORDERS
+									</a>
+								</li>
+							</section>
+						</section>
+						
+					</section>
+				</section>
+				
+				<section id = "teaching_area">	<!--Sets the course location-->
+					<section class="teach_course">	<!--Section for a course-->
+						<section id="open_course_c1" onmouseover="Arrow_hover('open_course_c1');" onmouseout="Arrow_no_hover('open_course_c1');">	<!--Button that will be used to expand course-->
+							<a onclick="Select_Course('lesson_area_C1');">></a>
+						</section>
+						<h1 class="topic_title">COURSE 1 - EFFECTS</h1>	<!--Title for course-->
+					</section>
+					<section id="lesson_area_C1" style="display: none;">
+						<section id="Black_and_White">
+							<section id="open_topic_t1" onmouseover="Arrow_hover('open_topic_t1');" onmouseout="Arrow_no_hover('open_topic_t1');">
+								<a onclick="Select_Course('topic_info_t1');">></a>
+							</section>
+							<h2 class="course_topic_title">BLACK AND WHITE</h2>
+						</section>
+						<section id="topic_info_t1" style="display: none;">
+								
+								<section class="info_title">Step 1:</section>
+								<section class="info_text">
+									<p>Open Photoshop on your Computer and Load up the image you wish by going to;
+									<br><i>"File > Open > (Navigate to your image)"</i><br>
+									This will be the image you will turn into a killer Black and White photograph.
+									</p>
+								</section>
+								<section class="info_image">
+									<img src="img/course_one/bw/step_one.jpg" class="image_properties"/>
+								</section>
+								
+								<section class="info_title">Step 2:</section>
+								<section class="info_text">
+									<p>After the image is open in Photoshop the next step is to save. Saving allows you to easily go back when you make a mistake.
+									<br><i>Ctrl + S </i> or <i> "File > Save As > (Save image where you want)"</i><br>
+									This will allow you to save your files.
+									</p>
+								</section>
+								<section class="info_image">
+									<img src="img/course_one/bw/step_two.jpg" class="image_properties"/>
+								</section>
+								
+								<section class="info_title">Step 3:</section>
+								<section class="info_text">
+									<p>To add the Black and White layer mask.
+									<br>Go to the bottom of the layer panel which is located the the bottom right of the screen and click on the icon that looks like a circle that is half white and half black.
+									<br>Select the layer mask that says;
+									<br><i>"Black & White..."</i>
+									<br>Or go to;<br>
+									<i>"Layer > New Adjustment Layer > Black & White..."</i>
+									</p>
+								</section>
+								<section class="info_image">
+									<img src="img/course_one/bw/step_three.jpg" class="image_properties"/>
+								</section>
+						</section>
+						
+						
+						
+						<!--<section id="Sepia">
+							<section class="open_topic">
+								<a>></a>
+							</section>
+							<h2 class="course_topic_title">SEPIA</h2>
+						</section>
+						<section id="Vignette">
+							<section class="open_topic">
+								<a>></a>
+							</section>
+							<h2 class="course_topic_title">VIGNETTE</h2>
+						</section>-->
+					</section>
+				</section>
+			</section>
+			
+			<section id="footer" onmouseover="Footer_hover();" onmouseout="Footer_no_hover();"> <!--Footer and hover effect-->
+				<section class="copyright">
+					<section id="visable_footer"> <!--What will be seen before JS-->
+						&copy AJ Designs Inc.	2015
+					</section>
+					<section id="hidden_footer" style="display: none;">	<!--What will be seen after JS-->
+							<section id="helpful_links">
+								HELPFUL LINKS:<br>
+								<li>
+									<a class="footer_text">Phlearn.com</a><br>
+								</li>
+								<li>
+									<a class="footer_text">Free Images</a><br>
+								</li>
+								<li>
+									<a class="footer_text">Adobe Website</a><br>
+								</li>
+							</section>
+							<section id="social_network">
+								SOCIAL:<br>
+								<li>
+									<a class="footer_text" href="download/images.zip" download="images.zip">Download Images Here</a><br>	<!--Download Link-->
+								</li>
+								<li>
+									<a class="footer_text">Facebook</a>
+								<li>
+									<a class="footer_text">Contact</a>
+								</li>
+							</section>
+					</section>
+				</section>
+				<section id="footer_open" onclick="Footer_show('footer');">	<!--Button to open Footer-->
+						<a>V</a>
+				</section>
+				
+			</section>
+			
+		</section>
+		<script src="js/home.js"></script>	<!--Import JS-->
+		<script src="js/course.js"></script>
+	</body>
+</html>
