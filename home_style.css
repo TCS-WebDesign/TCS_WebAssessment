@@ -1,0 +1,43 @@
+/*home CSS*/
+#main_information{
+	width: 67.5%;
+	float: left;
+	font-family: 'impact';
+	color: black;
+	margin-left: 1rem;
+}
+
+#page_information{
+	width: 100%;
+}
+
+.para{
+	font-size: 1.5rem;
+	float: left;
+	border: 0.125rem solid #B4E1F0;
+	padding: 1rem;
+	margin-top: 1rem;
+}
+
+#links_wrapper{
+	width: 100%;
+	float: left;
+	font-family: 'impact';
+	color: black;
+}
+
+.box	{
+	width: 32%;
+	float: left;
+	height: auto;
+	margin-right: 1.15rem;
+}
+
+.box_image	{
+	width: 100%;
+	height: auto;
+}
+
+#box_image_free{
+	margin-right: 0px;
+}
