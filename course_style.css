@@ -1,0 +1,81 @@
+/*course_CSS*/
+#teaching_area{
+	width: 67.5%;
+	float: left;
+	font-family: 'impact';
+	color: black;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+
+	.teach_course{
+		width: 100%;
+		float: left;
+		border: 0.125rem solid #B4E1F0;
+	}
+
+		#open_course_c1{
+			width: 5%;
+			font-size: 3rem;
+			float:left;
+			transform: rotate(90deg);
+		}
+			.topic_title{
+				width: 95%;
+				float: left;
+				font-size: 3rem;
+				margin: 0;
+			}
+
+		#lesson_area_C1{
+			width: 95%;
+			float: right;
+			font-size: 2rem;
+			color: black;
+		}
+			#Black_and_White, #Sepia, #Vignette{
+				width: 100%;
+				float: left;
+				border: 0.125rem solid #B4E1F0;
+				margin-top:	0.5rem;
+			}
+				#topic_info_t1{
+					width: 100%;
+					border: 0.125rem solid #B4E1F0;
+					float: left;
+					margin-top: 0.5rem;
+					margin-bottom: 3rem;
+				}
+				
+					.info_title{
+						text-align: left;
+						margin-left: 1rem;
+						text-decoration: underline;
+					}
+					.info_text{
+						font-size: 1.5rem;
+						width: 90%;
+						margin: auto;
+					}
+					.info_image{
+						width: 100%;
+						height: auto;
+					}
+						.image_properties{
+							width: 100%;
+							height: auto;
+						}
+				
+				#open_topic_t1{
+					width: 5%;
+					font-size: 2rem;
+					float: left;
+					transform: rotate(90deg);
+				}
+
+				.course_topic_title{
+					width: 95%;
+					float: left;
+					font-size: 2rem;
+					margin: 0;
+				}
